@@ -21,7 +21,7 @@ export default function Home() {
           Site Under Construction
         </h1>
         <p className="text-lg text-gray-700 text-center mb-6">
-          We're working hard to bring you a new and improved experience. Stay tuned for updates!
+          We&apos;re working hard to bring you a new and improved experience. Stay tuned for updates!
         </p>
         <div className="text-center">
           <h2 className="text-2xl font-semibold text-gray-800 mb-2">Random Fact</h2>
