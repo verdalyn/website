@@ -1,6 +1,6 @@
 import './globals.css'
-import Script from 'next/script'
 import { Inter } from 'next/font/google'
+import GoogleAnalytics from '../components/analytics'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,8 +16,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.className}>
+      <GoogleAnalytics />
       <body>{children}</body>
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-JG3HPKZLZ3" />
     </html>
   )
 }
