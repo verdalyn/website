@@ -1,7 +1,6 @@
-import { ReactNode } from 'react'
 import './globals.css'
-import { Inter } from 'next/font/google'
 import Script from 'next/script'
+import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,8 +15,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={inter.className}>
+      <body>{children}</body>
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-JG3HPKZLZ3" />
     </html>
   )
