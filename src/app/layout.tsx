@@ -1,7 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import GoogleAnalytics from '../components/analytics'
-
+import { GoogleTagManager } from '@next/third-parties/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -16,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.className}>
-      <GoogleAnalytics />
+       <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_MEASUREMENT_ID || ''} />
       <body>{children}</body>
     </html>
   )
