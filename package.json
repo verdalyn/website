@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "verdalyn",
   "version": "1.0.0",
-  "description": "A blank template to get started with Payload 3.0",
+  "description": "verdalyn",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -35,8 +35,11 @@
     "@types/node": "^22.5.4",
     "@types/react": "npm:types-react@19.0.0-rc.1",
     "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
+    "autoprefixer": "^10.4.20",
     "eslint": "^8",
     "eslint-config-next": "15.0.0-canary.173",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
     "typescript": "5.6.2",
     "web-vitals": "^4.2.3"
   },
